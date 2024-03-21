@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+}
+button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.board-row {
+  display: grid;
+  width: 150px;
+  height: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.button-history {
+  width: 150px;
+  padding: 0.5rem;
+}
+li {
+  font-size: 1.6rem;
+}
